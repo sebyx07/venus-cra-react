@@ -7,9 +7,11 @@ import HotLinks from './common/HotLinks';
 function App() {
   return (
     <div className="App">
-      <PageTitle />
-      <Live />
-      <HotLinks />
+      <div className='AppContainer'>
+        <PageTitle />
+        <Live />
+        <HotLinks />
+      </div>
     </div>
   );
 }
