@@ -1,0 +1,18 @@
+.live-video{
+  text-align: center;
+  margin-bottom: 2rem;
+  .video-container{
+    display: flex;
+    justify-content: center;
+  }
+  video{
+    height: 150px;
+    cursor: pointer;
+    border: solid 2px pink;
+  }
+
+  a{
+    padding-top: 1.5rem;
+    font-size: 2rem;
+  }
+}

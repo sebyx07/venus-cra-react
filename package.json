@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "version": "0.2.0",
+  "author": "Leslie Alldridge - 2022",
+  "homepage": "https://leslie-alldridge.github.io/react-boilerplate-2022-github-pages",
+  "private": true,
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@stripchat/stripchat-embedded": "^1.1.0-beta.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "hls.js": "^1.5.7",
+    "node-sass": "^9.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "test": "DISABLE_ESLINT_PLUGIN=true react-scripts test --collectCoverageFrom=src/**/*.jsx --collectCoverageFrom=!src/index.jsx --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .jsx src",
+    "lint:report": "eslint --output-file eslint_report.json --format json ./src"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1"
+  }
+}
