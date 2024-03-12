@@ -22,7 +22,7 @@ export default function Live() {
       });
 
       hlsInstance.on(Events.ERROR, (event, data) => {
-        setError(true)
+        // setError(true)
       });
     }
   }, [videoRef]);
