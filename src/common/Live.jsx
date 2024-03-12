@@ -10,7 +10,7 @@ export default function Live() {
     if (!videoRef.current) return;
 
     const video = videoRef.current;
-    const hlsUrl = 'https://b-hls-25.doppiocdn.com/hls/148702724/148702724_720p60.m3u8?playlistType=lowLatency&_HLS_msn=915&_HLS_part=1';
+    const hlsUrl = 'https://edge-hls.doppiocdn.com/hls/148702724/master/148702724_auto.m3u8?playlistType=lowLatency';
 
     if (hls.isSupported()) {
       const hlsInstance = new hls();
