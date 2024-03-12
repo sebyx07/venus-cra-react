@@ -35,4 +35,5 @@ jobs:
           folder: build
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
           BUILD_SCRIPT: yarn && yarn build
