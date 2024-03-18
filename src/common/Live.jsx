@@ -28,7 +28,7 @@ export default function Live() {
   }, [videoRef]);
 
   function openStripchat() {
-    window.location.href = 'https://stripchat.com/venus_peach';
+    window.location.href = 'https://stripchat.com/venus_peach/follow-me';
   }
 
   const goodStream = () => {};
@@ -50,7 +50,7 @@ export default function Live() {
         )
 }
 
-      <a href="https://stripchat.com/venus_peach">Venus Peach Stripchat🚀</a>
+      <a href="https://stripchat.com/venus_peach/follow-me">Venus Peach Stripchat🚀</a>
     </div>
   );
 }
